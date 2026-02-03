@@ -1,0 +1,19 @@
+
+Get started with Pulumi and Google Cloud
+Before you begin:
+1)You have pulumi installed.
+	https://www.pulumi.com/docs/get-started/download-install/
+	&& Open a Free Trial Account on GCP and create a project.
+2)Install the Google Cloud CLI, Then sign in and select your proect.
+	https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe
+3)Run core commands to view information about your gcloud CLI installation.
+	>gcloud auth list   ##To see the Credentialed Accounts.
+	>gcloud config list ##To see the properties in your active gcloud CLI configuration.
+	>gcloud help compute instances create ## To view help for gcloud commands.
+
+Infrastructure as code (IaC) lets you deploy, change, and manage infrastructure safely, consistently, and repeatably using code rather than a graphical user interface.
+	
+Create a new project:
+	A project is a program in your chosen language that defines a collection of related cloud resources. In this step, you will create a new project.
+	
+	

@@ -1,0 +1,9 @@
+ config:
+  gcp:project: norse-bond-323008
+  gcp:region: us-central1
+  gcp:zone: us-central1-a
+  my-virtual-machine:instanceTag: webserver
+  my-virtual-machine:machineType: f1-micro
+  my-virtual-machine:osImage: debian-11
+  my-virtual-machine:servicePort: "80"
+  gcp:disableGlobalProjectWarning: "true"
